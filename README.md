@@ -4,13 +4,11 @@ This repository is the official **Pytorch** code  implementation of our paper Fr
 
 ## Requirement
 
-- python 3.8.8
-- torch 1.8.1
-- pretrainedmodels 0.7.4
-- numpy 1.19.2
-- pandas 1.2.5
-- Pillow 8.2.0
-- scipy 1.6.2
+- python 3.8
+- torch 1.8
+- pretrainedmodels 0.7
+- numpy 1.19
+- pandas 1.2
 
 ## Method
 
