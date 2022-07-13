@@ -1,8 +1,12 @@
 # Spectrum Simulation Attack (ECCV'2022 ORAL)
 
-This repository is the official **Pytorch** code  implementation for our paper [Frequency Domain Model Augmentation for Adversarial Attack](https://arxiv.org/abs/2207.05382). In this paper, we propose a novel **spectrum simulation attack** to craft more transferable adversarial examples against both normally trained and defense models. Specifically, we apply a **spectrum transformation** to the input and thus perform the model augmentation in the **frequency domain**. We theoretically prove that the transformation derived from frequency domain leads to a diverse **spectrum saliency map**, an indicator we proposed to reflect the diversity of substitute models. Notably, our method can be generally combined with existing attacks. Extensive experiments on the ImageNet dataset demonstrate the effectiveness of our method, *e.g.*, attacking nine state-of-the-art defense models with an average success rate of **95.4%**.
+This repository is the official **Pytorch** code  implementation for our paper [Frequency Domain Model Augmentation for Adversarial Attack](https://arxiv.org/abs/2207.05382). In this paper, we propose a novel **spectrum simulation attack** to craft more transferable adversarial examples against both normally trained and defense models. Extensive experiments on the ImageNet dataset demonstrate the effectiveness of our method, *e.g.*, attacking nine state-of-the-art defense models with an average success rate of **95.4%**.
 
 # Motivation
+1. All of existing model augmentation methods investigate relationships of different models in spatial domain, which may overlook the essential differences between them. 
+2. Representation of images in the frequency domain have a fixed pattern, e.g., low-frequency components of an image correspond to its contour. 
+3. As illustrated in Figure 1 (d~g), spectrum saliency maps (See Sec. 3.2) of different models significantly vary from each other, which clearly reveals that each model has different interests in the same frequency component. 
+
 ![image-20220712192323395](./readme_img/fre.png)
 
 ## Requirements
