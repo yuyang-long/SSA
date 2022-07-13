@@ -54,3 +54,20 @@ To evaluate the attack success rates on defense models, we test eight defense mo
 
 ![image-20220712192349277](./readme_img/normal.png)
 
+## Citation
+
+If you find this work is useful for your research, please cite our paper:
+```
+@inproceedings{Long2022ssa,
+  author    = {Yuyang Long and 
+               Qilong Zhang and 
+               Boheng Zeng and
+               Lianli Gao and 
+               Xianglong Liu and 
+               Jian Zhang and 
+               Jingkuan Song},
+  title     = {Frequency Domain Model Augmentation for Adversarial Attack},
+  Booktitle = {European Conference on Computer Vision},
+  year      = {2022}
+}
+```
