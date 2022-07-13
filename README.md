@@ -22,7 +22,7 @@ In our paper, we propose a novel **spectrum simulation attack** to craft more tr
 
 - **Generate adversarial examples**
 
-  Using attack.py perform S^2^I-FGSM,  you can run this attack as following
+  Using attack.py perform S<sup>2</sup>I-FGSM,  you can run this attack as following
   
   ```bash
   CUDA_VISIBLE_DEVICES=gpuid python attack.py --output_dir outputs
