@@ -1,6 +1,6 @@
-# Spectrum Simulation Attack（accepted by ECCV2022）
+# Spectrum Simulation Attack (ECCV2022 ORAL)
 
-This repository is the official **Pytorch** code  implementation of our paper [Frequency Domain Model Augmentation for Adversarial Attack](https://arxiv.org/abs/2207.05382).
+This repository is the official **Pytorch** code  implementation for our paper [Frequency Domain Model Augmentation for Adversarial Attack](https://arxiv.org/abs/2207.05382). In our paper, we propose a novel **spectrum simulation attack** to craft more transferable adversarial examples against both normally trained and defense models. Specifically, we apply a **spectrum transformation** to the input and thus perform the model augmentation in the **frequency domain**. We theoretically prove that the transformation derived from frequency domain leads to a diverse **spectrum saliency map**, an indicator we proposed to reflect the diversity of substitute models. Notably, our method can be generally combined with existing attacks. Extensive experiments on the ImageNet dataset demonstrate the effectiveness of our method, *e.g.*, attacking nine state-of-the-art defense models with an average success rate of **95.4%**.
 
 ## Requirement
 
@@ -10,11 +10,8 @@ This repository is the official **Pytorch** code  implementation of our paper [F
 - numpy 1.19
 - pandas 1.2
 
-## Method
 
-In our paper, we propose a novel **spectrum simulation attack** to craft more transferable adversarial examples against both normally trained and defense models. Specifically, we apply a **spectrum transformation** to the input and thus perform the model augmentation in the **frequency domain**. We theoretically prove that the transformation derived from frequency domain leads to a diverse **spectrum saliency map**, an indicator we proposed to reflect the diversity of substitute models. Notably, our method can be generally combined with existing attacks. Extensive experiments on the ImageNet dataset demonstrate the effectiveness of our method, *e.g.*, attacking nine state-of-the-art defense models with an average success rate of **95.4%**.
-
-## Run the code
+## Implementation
 
 - **Prepare models**
 
