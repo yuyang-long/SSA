@@ -5,8 +5,9 @@ This repository is the official **Pytorch** code  implementation for our paper [
 # Motivation
 1. All of existing model augmentation methods investigate relationships of different models in spatial domain, which may overlook the essential differences between them. 
 2. Representation of images in the frequency domain have a fixed pattern, e.g., low-frequency components of an image correspond to its contour. 
-3. As illustrated in Figure 1 (d~g), spectrum saliency maps (See Sec. 3.2) of different models significantly vary from each other, which clearly reveals that each model has different interests in the same frequency component. 
+3. As illustrated in Figure 1 (d~g), spectrum saliency maps (See Sec. 3.2) of different models significantly vary from each other, which clearly reveals that each model has different interests in the same frequency component.
 
+==> Motivated by these, we consider tuning the spectrum saliency map to simulate more diverse substitute models, thus generating more transferable adversarial examples. 
 ![image-20220712192323395](./readme_img/fre.png)
 
 ## Requirements
