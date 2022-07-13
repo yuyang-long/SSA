@@ -37,7 +37,7 @@ This repository is the official **Pytorch** code  implementation for our paper [
   CUDA_VISIBLE_DEVICES=gpuid python verify.py
   ```
 
-- **Evaluations on nine defenses**
+- **Evaluations on defenses**
 
     To evaluate the attack success rates on defense models, we test eight defense models which contain three adversarial trained models (Inc-v3<sub>*ens3*</sub>, Inc-v3<sub>*ens4*</sub>, IncRes-v2<sub>*ens*</sub>) and six more advanced models (HGD, R&P, NIPS-r3, RS, JPEG, NRP).
 
@@ -47,7 +47,7 @@ This repository is the official **Pytorch** code  implementation for our paper [
     - [JPEG](https://github.com/JHL-HUST/VT/blob/main/third_party/jpeg.py): Refer to [here](https://github.com/JHL-HUST/VT/blob/main/third_party/jpeg.py).
     - [NRP](https://github.com/Muzammal-Naseer/NRP): purifier=NRP, dynamic=True, base_model=Inc-v3<sub>*ens3*</sub>. Download it from corresponding official repo.
 
-## Result
+## Results
 
 
 
