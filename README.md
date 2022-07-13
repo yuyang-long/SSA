@@ -1,6 +1,6 @@
 # Spectrum Simulation Attack（accepted by ECCV2022）
 
-This repository is the official **Pytorch** code  implementation of our paper Frequency Domain Model Augmentation for Adversarial Attack.
+This repository is the official **Pytorch** code  implementation of our paper [Frequency Domain Model Augmentation for Adversarial Attack](https://arxiv.org/abs/2207.05382).
 
 ## Requirement
 
