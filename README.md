@@ -22,7 +22,7 @@ This repository is the official **Pytorch** code  implementation for our paper [
 
 - **Prepare models**
 
-  Download pretrained models [here](https://github.com/ylhz/tf_to_pytorch_model), which have converted common Tensorflow models used in adversarial attacks to PyTorch models. Then put these models into `.models/`
+  Download pretrained models [here](https://github.com/ylhz/tf_to_pytorch_model), which has converted common Tensorflow models used in adversarial attacks to PyTorch models. Then put these models into `.models/`
 
 - **Generate adversarial examples**
 
